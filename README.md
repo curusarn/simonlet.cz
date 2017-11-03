@@ -14,3 +14,4 @@ curusarn@*\<almost_everywhere\>*
 [ Reddit](https://www.reddit.com/user/curusarn)  
 [ Instagram](https://www.instagram.com/curusarn) 
 
+{% icon fa-shield fa-rotate-90 %}
