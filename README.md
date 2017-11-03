@@ -14,5 +14,5 @@ curusarn@*\<almost_everywhere\>*
 [ Reddit](https://www.reddit.com/user/curusarn)  
 [ Instagram](https://www.instagram.com/curusarn) 
 
-{% icon fa-warning %}
+<i class="fa fa-warning"></i>
 
