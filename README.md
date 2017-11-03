@@ -1,6 +1,8 @@
 ## Šimon Let  
 curusarn@*\<almost_everywhere\>*
 
+[ My resume](https://github.com/curusarn/curusarn.github.io/blob/master/cv-private.pdf)
+
 [ GitHub](https://github.com/curusarn)  
 [ Twitter](https://twitter.com/curusarn)  
 [ LinkedIn](https://linkedin.com/in/simon-let)  
