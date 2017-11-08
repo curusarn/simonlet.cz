@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://use.fontawesome.com/c3d5f85194.js"></script>
 
 ## Šimon Let  
 curusarn@*\<almost_everywhere\>*
