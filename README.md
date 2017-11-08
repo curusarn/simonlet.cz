@@ -3,7 +3,9 @@
 ## Šimon Let  
 curusarn@*\<almost_everywhere\>*
 
-[<i class="fa fa-file-pdf-o"></i> My resume](https://github.com/curusarn/curusarn.github.io/raw/master/cv-private.pdf)
+[<i class="fa fa-file-pdf-o"></i> My resume](https://github.com/curusarn/curusarn.github.io/raw/master/cv-private.pdf)  
+<i class="fa fa-at"></i> <script type="text/javascript">document.write('simon.a.let' + '@' + 'gmail.com')</script>  
+
 
 [<i class="fa fa-github"></i> GitHub](https://github.com/curusarn)  
 [<i class="fa fa-twitter"></i> Twitter](https://twitter.com/curusarn)  
