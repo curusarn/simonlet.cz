@@ -1,7 +1,7 @@
 <script src="https://use.fontawesome.com/c3d5f85194.js"></script>
 
 ## Šimon Let  
-curusarn@*\<almost_everywhere\>*
+*<script type="text/javascript">document.write('simon.a.let' + '@' + 'gmail.com')</script>*
 
 [<i class="fa fa-file-pdf-o"></i> My resume](https://github.com/curusarn/curusarn.github.io/raw/master/cv-private.pdf)  
 
