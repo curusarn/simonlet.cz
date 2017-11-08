@@ -14,8 +14,9 @@ curusarn@*\<almost_everywhere\>*
 [<i class="fa fa-lastfm-square"></i> Last.fm](https://www.last.fm/user/curusarn)  
 [<i class="fa fa-link"></i> Hackerrank](https://www.hackerrank.com/curusarn)  
 [<i class="fa fa-stack-exchange"></i> StackExchange](https://stackexchange.com/users/5039093/curusarn?tab=accounts)  
+[<i class="fa fa-medium"></i> Medium](https://medium.com/@curusarn)  
 [<i class="fa fa-reddit"></i> Reddit](https://www.reddit.com/user/curusarn)  
 [<i class="fa fa-instagram"></i> Instagram](https://www.instagram.com/curusarn)  
-[<i class="fa fa-medium"></i> Medium](https://medium.com/@curusarn)  
+
 
 
