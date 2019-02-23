@@ -7,7 +7,7 @@
 
 [<i class="fa fa-github"></i> GitHub](https://github.com/curusarn)  
 [<i class="fa fa-twitter"></i> Twitter](https://twitter.com/curusarn)  
-[<i class="fa fa-linkedin"></i> LinkedIn](https://linkedin.com/in/let-simon)  
+[<i class="fa fa-linkedin"></i> LinkedIn](https://linkedin.com/in/simon-let)  
 [<i class="fa fa-get-pocket"></i> Pocket](https://getpocket.com/@curusarn)  
 [<i class="fa fa-key"></i> Keybase](https://keybase.io/curusarn)  
 [<i class="fa fa-spotify"></i> Spotify](https://open.spotify.com/user/curusarn)  
