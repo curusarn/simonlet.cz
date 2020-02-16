@@ -11,4 +11,4 @@
 
 I'm currently looking for an awesome infra job in Prague.
 
-I would love to make things scale and/or work on internal tools. I care about reliability and developer experience. I want to take responsibility for what I create. I want to research, design and develop things that solve real problems.
+I would love to make things scale and/or work on internal tools. I care about reliability and developer experience. I want to take responsibility for what I create. I want to research, design and develop things that solve challenging problems.
