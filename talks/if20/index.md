@@ -75,7 +75,7 @@ There is a simple way to install this project using this oneliner.
 
 I know what you are thinking - if you don't trust me or Github you can download or clone this, check the script and run it afterwards.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KAZyEf4tR18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KAZyEf4tR18?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **#9** This is how installation looks like.
 
