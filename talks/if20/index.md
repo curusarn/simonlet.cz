@@ -175,7 +175,7 @@ So you might want to install this project if you like playing around with data.
 
 If you liked what you saw during this presentation and want to try out the project:
 
-1) Install th project: [github.com/curusarn/resh#Installation](https://github.com/curusarn/resh#Installation) (or run `curl -fsSL https://raw.githubusercontent.com/curusarn/resh/master/scripts/rawinstall.sh | bash`)
-1) Restart your terminal
-1) Try RESH CLI: `reshctl enable ctrl_r_binding` (enables Ctrl+R binding for current shell session)
-1) If you like RESH CLI enable it for future shell sessions: `reshctl enable ctrl_r_binding_global`
+1. Install th project: [github.com/curusarn/resh#Installation](https://github.com/curusarn/resh#Installation) (or run `curl -fsSL https://raw.githubusercontent.com/curusarn/resh/master/scripts/rawinstall.sh | bash`)
+1. Restart your terminal
+1. Try RESH CLI: `reshctl enable ctrl_r_binding` (enables Ctrl+R binding for current shell session)
+1. If you like RESH CLI enable it for future shell sessions: `reshctl enable ctrl_r_binding_global`
