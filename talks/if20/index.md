@@ -39,12 +39,12 @@ Both time/date and session can provide a meaningful way to group shell history r
 Session can be a single terminal window or we could be smarter and group terminal windows together based on time.
 
 If we start looking at history as sequences of commands instead of single commands we could find interesting relationsihps between them.
-For example, after `git add ....` commands we might often use `git commit ...` commands.
+For example, after `git add ...` commands we might often use `git commit ...` commands.
 
 The fact if the command was recalled from history or typed out is also an important part of context. For example, there could be commands that we use often but we type them out every time. In contrast, there could be commands that we want to recall from history every time we use them.
 
-The last bullet point is an additional context that could be useful if we start sychronizing history between multiple devices.
-Benefits of synchronizing shell history are having all ao it avalable and not loosing any during reinstalls or accidents.
+Host and OS provide additional context that could be useful if we start sychronizing history between multiple devices.
+Benefits of synchronizing shell history are having all of it avalable and not loosing any during reinstalls or accidents.
 
 ![#5](slides/slides_if20_resh_5.png)
 **#5** I would like to introduce my project - Rich Enhanced Shell History.
