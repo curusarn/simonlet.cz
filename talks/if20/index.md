@@ -13,9 +13,9 @@ Standard history works great when we need commands we executed recently.
 Typically, we make a typo, press arrow up, correct ourselves and execute theh result - works great.
 Another example is when we need to alternate between two or three different commands - pressing arrow up a couple of times comfortably gives previous commands without much effort and typing.
 
-History also works well when we have a good idea what we are looking for and remember a significant part of the command we want to recall.
+History also works well when we have a good idea what we are looking for - when we remember a significant part of the command we want to recall.
 For example, we can press Ctrl+R, type big enough part of the command and execute the result.
-Similarly, we could use prefix search if we do have it enabled or we could use more advanced manual history filtering to get find what we need.
+Similarly, we could use prefix search (if we do have it enabled) or we could use more advanced manual history filtering to find what we need.
 
 ![#3](slides/slides_if20_resh_3.png)
 **#3** We just talked about how standard history works
@@ -26,25 +26,25 @@ For example, when we come back to an old project we might not remember what comm
 Another situation when history doesn't work great is when we do remember a part of the command but there are many other similar commands.
 We press Ctrl+R, type the query and then we need to press Ctrl+R repeatedly to get to the desired result while only seeing one command from the history at a time.
 
-Is there something we can do about this? What if we didn't rely on just the text of the command and had more than that in our shell history?
+Is there something we can do about this? What if we didn't rely on just the text of the command? What if we had more than text in our shell history?
 
 ![#4](slides/slides_if20_resh_4.png)
-**#4** We can record context to the shell history. Let's break down what is context and why is it useful.
+**#4** We can record context when executing commands and then store it in our shell history. Let's break down what is context and why is it useful.
 
-Directory where we executed the command and the git repository is useful because you probably use different command based on what directory or project you are currently in.
+Directory where we executed the command and the git repository is useful because you probably use different commands based on what directory or project you are currently in.
 
 Commands with non-zero exit codes are likely errors so we probably don't want to run them again.
 
 Both time/date and session can provide a meaningful way to group shell history records together.
 Session can be a single terminal window or we could be smarter and group terminal windows together based on time.
 
-If we start looking at history as sequences of commands instead of single commands we could find interesting relationsihps between them.
-For example, after `git add ...` commands we might often use `git commit ...` commands.
+If we start looking at history as sequences of commands instead of single commands we could find interesting relationships between them.
+For example, after `git add ...` commands we might often use `git commit ...` commands. Sequentiallity of commands is also a part of context.
 
-The fact if the command was recalled from history or typed out is also an important part of context. For example, there could be commands that we use often but we type them out every time. In contrast, there could be commands that we want to recall from history every time we use them.
+The fact whether the command was recalled from history or typed out is also an important part of context. For example, there could be commands that we use often but we type them out every time. In contrast, there could be commands that we want to recall from history every time we use them.
 
 Host and OS provide additional context that could be useful if we start sychronizing history between multiple devices.
-Benefits of synchronizing shell history are having all of it avalable and not loosing any during reinstalls or accidents.
+Benefits of synchronizing shell history include having all of it available on any device and not loosing any during reinstalls or accidents.
 
 ![#5](slides/slides_if20_resh_5.png)
 **#5** I would like to introduce my project - Rich Enhanced Shell History.
@@ -52,7 +52,7 @@ Benefits of synchronizing shell history are having all of it avalable and not lo
 It records your history with context and saves it as JSON (for now).
 
 It allows you to search the history in two ways.  
-First, there is a CLI application that you can see in the slide and you will see more of it in a little bit.
+First, there is a CLI application - you can see it in the slide and you will see more of it in a little bit.
 This app is designed to be bound to Ctrl+R and to replace standard reverse search.  
 Second, it provides standard arrow keybindings that step through recent history and do prefix search.
 
@@ -62,7 +62,7 @@ Technically, it's not a big issue - I just haven't got around to do it yet.
 ![#6](slides/slides_if20_resh_6.png)
 **#6** There are other things I would like to highlight about the project.
 
-The installation and updates are easy. There are almost no dependencies. It's easy to configure or at least I think so. It's written in Go and it's opensource.
+The installation and updates are easy. There are almost no dependencies. It's easy to configure (or at least I think so). It's written in Go and it's opensource.
 
 ![#7](slides/slides_if20_resh_7.png)
 **#7** It's compatible with zsh and bash. And it runs on Linux and MacOS.
@@ -83,12 +83,12 @@ I know what you are thinking - if you don't trust me or Github you can download 
 
 First, the installation script finds the latest version on Github and downloads the correct archive based on your OS and architecture - Linux and 64bit in this case.
 
-Then, the script checks what is your login shell and if you have recent enough version of it. After that, files are copied and some additional setup is performed.
+Then, the script checks what is your login shell, if you have recent enough version of bash and zsh. After that, files are copied and some additional setup is performed.
   
 ![#10](slides/slides_if20_resh_10.png)
 **#10** I've set out to make this tool easy to use and configure. That's why I created a single command to control the whole project.
 
-This single commadn is `reshctl` (resh control). It has help and tab completions.
+This single command is `reshctl` (resh control). It has help and tab completions.
 
 You can use `reshctl` to update the project, enable/disable features, find out what version you are running, see what features are enabled, and more.
 
@@ -121,7 +121,7 @@ Each word of the query is taken separately - the order doesn't matter.
 This means that each keyword can match either command, directory or both.
 
 There are few more things that affect the order of results.
-Commands from current directory are prioritized and any command with non-zero status is penalized.
+Commands from current directory are prioritized and any commands with non-zero status are penalized.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5jF35mLxgcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -129,7 +129,7 @@ Commands from current directory are prioritized and any command with non-zero st
 
 Before we type anything, we see that there are only results from current directory - current directory is highlighted with blue color.
 
-Once we type in the query we get a mix of records from current directory and other directories. Another thing to notice is how each word in the query is taken separately.
+Once we type in the query we get a mix of records from current directory and other directories.
 
 When we change the query to something specific enough we see that results from current directory disappear completely.
 
@@ -149,29 +149,32 @@ First, we change into the project directory. We launch the RESH CLI and we see a
 
 We can see that there is a `make` command in the history so we will run that.
 
-This is not particulary impressive, we could have found out that ther is a `Makefile` by listing the contents of the directory.
+This is not particulary impressive, we could have found out that there is a `Makefile` by simply listing the contents of the directory.
 
-RESH CLI becomes very useful once we want to run other commands and when we need to edit them. If we wanted to use the `Makefile` now we would have to open the file, edit it and then finally run `make` - history is quite useful and comfortable in this situation.
+Now we launch RESH CLI again and select a different command. Then we make some edits and execute it from the command line.
+
+Imagine if we used `Makefile` instead of RESH CLI. We would have to open the file, edit it and then finally run `make` - history is quite useful and comfortable in situations like this one.
 
 ![#17](slides/slides_if20_resh_17.png)
 **#17** What is the state and future plans for the project?
 
-You can head over to [github.com/curusarn/resh](https://github.com/curusarn/resh) to find installation instructions and more information about what features I plan to add to the project.
+It's unlikely that you will encounter major errors if you install the project - couple hundred of people has already installed it.
 
-It's unlikely that you will encounter major errors if you install the project - couple hundred of people has installed the project.
+You can head over to [github.com/curusarn/resh](https://github.com/curusarn/resh) to find installation instructions, more information and what features you can expect in the future.
 
 RESH CLI, the command line app I was showing you today, is a prototype - it only contains the absolute minumum of features.
 For example, it only uses directory and command for searching.
-It doesn't show you which commands have non-zero exit status - this searching app is meant to be transparent and predictable because tools that are unpredictable are hard to use.
+It doesn't show you which commands have non-zero exit status. RESH CLI app is meant to be transparent and predictable because tools that are unpredictable are hard to use.
 
-Another thing I need to point out is that the arrow key bindings are only enabled by default in zsh because they are slow in bash. Bash implements support for binding custom functions is weird.
+Another thing I need to point out is that the arrow key bindings are only enabled by default in zsh because they are slow in bash.
+The way how bash implements support for binding custom functions is weird and slow.
 
-Please do create issues if you run into any or if you have feedback.
+Please create issues if you have any feedback, suggestions or if you run into problems!
 
 ![#18](slides/slides_if20_resh_18.png)
 **#18** One more thing I want to show you is how contextual history can be used to create nice graphs. This graph shows that my most used command is `git` and that almost every `mkdir` is followed by `ls`.
 
-So you might want to install this project if you like playing around with data.
+You might want to install this project if you like playing around with data.
 
 If you liked what you saw during this presentation and want to try out the project:
 
