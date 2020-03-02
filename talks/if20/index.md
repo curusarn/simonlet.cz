@@ -75,7 +75,7 @@ There is a simple way to install this project using this oneliner.
 
 I know what you are thinking - if you don't trust me or Github you can download or clone this, check the script and run it afterwards.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KAZyEf4tR18?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KAZyEf4tR18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **#9** This is how installation looks like.
 
@@ -88,3 +88,28 @@ Then, the script checks what is your login shell and if you have recent enough v
 
 ![#11](slides/slides_if20_resh_11.png)
 **#11** TODO: RESH CLI basic controls
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pj4u1yz3hsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**#12** Here we see the RESH CLI in action. ...
+
+![#13](slides/slides_if20_resh_13.png)
+**#13** TODO: RESH CLI searching
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5jF35mLxgcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**#14** TODO: demo - Here we see the RESH CLI in action. ...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-hfuRjNpL3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**#15** TODO: demo - Here we see the RESH CLI in action. ...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i_o66pndEvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**#16** TODO: demo - Here we see the RESH CLI in action. ...
+
+![#17](slides/slides_if20_resh_17.png)
+**#17** TODO: State & Roadmap of the project
+
+![#18](slides/slides_if20_resh_18.png)
+**#18** TODO: Data is beautiful
