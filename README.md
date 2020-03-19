@@ -15,7 +15,7 @@
 
 ### Rich Enhanced Shell History
 
-Contextual history for zsh and bash  
+Contextual shell history for zsh and bash  
 More info: [github.com/curusarn/resh](https://github.com/curusarn/resh)
 
 
