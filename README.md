@@ -20,3 +20,24 @@ More info: [github.com/curusarn/resh](https://github.com/curusarn/resh)
 
 
 *Find other smaller projects on my [GitHub](https://github.com/curusarn)*
+
+----
+
+## Talks
+
+### Contextual Shell History @ Installfest 2020
+
+Transcript with slides: [simonlet.cz/talks/if20/](https://www.simonlet.cz/talks/if20/)  
+Recording (in Czech): [Youtube](https://www.youtube.com/watch?v=OKM4RGR-zpQ)
+
+----
+
+## Tips
+
+### How to create awesome command line tools
+
+[github.com/curusarn/command-line-tools-tips](https://github.com/curusarn/command-line-tools-tips)
+
+### Reading tips
+
+[github.com/curusarn/reading-tips](https://github.com/curusarn/reading-tips)
