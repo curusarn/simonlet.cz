@@ -180,5 +180,5 @@ If you liked what you saw during this presentation and want to try out the proje
 
 1. Install the project: [github.com/curusarn/resh#Installation](https://github.com/curusarn/resh#Installation)
 1. Restart your terminal
-1. Try RESH CLI: `reshctl enable ctrl_r_binding` (enables Ctrl+R binding for current shell session)
-1. If you like RESH CLI enable it for future shell sessions: `reshctl enable ctrl_r_binding_global`
+1. ~Try RESH CLI: `reshctl enable ctrl_r_binding` (enables Ctrl+R binding for current shell session)~
+1. ~If you like RESH CLI enable it for future shell sessions: `reshctl enable ctrl_r_binding_global`~
